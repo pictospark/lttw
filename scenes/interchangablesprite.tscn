@@ -1,0 +1,23 @@
+[gd_scene load_steps=3 format=3 uid="uid://51o65cpmci0x"]
+
+[ext_resource type="Script" uid="uid://bjkxlv42s0tmb" path="res://scenes/interchangablesprite.gd" id="1_37fgc"]
+[ext_resource type="Texture2D" uid="uid://bnsnmeeqgdbrl" path="res://sprites/CharacterSprites/none.png" id="2_37fgc"]
+
+[node name="interchangablesprite" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_37fgc")
+
+[node name="before" type="Sprite2D" parent="."]
+texture_filter = 1
+position = Vector2(576, 324)
+texture = ExtResource("2_37fgc")
+
+[node name="after" type="Sprite2D" parent="before"]
+texture_filter = 1
+position = Vector2(-2.28882e-05, -1.19209e-05)
+texture = ExtResource("2_37fgc")

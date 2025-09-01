@@ -1,0 +1,305 @@
+{
+	"name":"colin",
+	"1": {
+		"1": {
+			"dialogue": {
+				"good": "tester1
+im colin",
+				"goodbad":"tester2
+u suck",
+				"goodgood":"tester2
+u did good",
+				"goodgreat":"tester2
+u did good",
+			},	
+			"values": {
+				"good":[2,-1,1,-2],
+			},	
+		},
+		"2": {
+			"dialogue": {
+				"great": "tester2
+im colin (awesome)",
+				"good": "tester1
+im colin (chill)",
+				"bad": "tester1
+im colin (mad)",
+
+				"greatgreat": "tester2
+great great",
+				"greatgood": "
+great good",
+				"greatbad": "
+great bad",
+				"goodgreat": "tester2
+good great",
+				"goodgood": "
+good good",
+				"goodbad": "
+good bad",
+				"badgreat": "tester2
+bad great",
+				"badgood": "
+bad good",
+				"badbad": "
+fuck you",
+			},	
+			"values": {
+				"great": [2,1,-2,-1],
+				"good": [-2,1,-1,2],
+				"bad": [2,-1,1,-2]
+			},	
+		},
+		"3": {
+			"dialogue": {
+				"great": "tester2
+im colin (awesome)",
+				"good": "tester1
+im colin (chill)",
+				"bad": "tester1
+im colin (mad)",
+
+				"greatgreat": "tester2
+great great",
+				"greatgood": "tester1
+great good",
+				"greatbad": "tester1
+great bad",
+				"goodgreat": "tester2
+good great",
+				"goodgood": "tester2
+good good",
+				"goodbad": "tester2
+good bad",
+				"badgreat": "tester2
+bad great",
+				"badgood": "tester1
+bad good",
+				"badbad": "tester2
+fuck you",
+			},	
+			"values": {
+				"great": [2,1,-2,-1],
+				"good": [-2,1,-1,2],
+				"bad": [2,-1,1,-2]
+			},	
+		}
+	},
+	
+	"2": {
+		"1": {
+			"dialogue": {
+				"great": "tester2
+im colin (awesome)",
+				"good": "tester1
+im colin (chill)",
+				"bad": "tester1
+im colin (mad)",
+
+				"greatgreat": "tester2
+great great",
+				"greatgood": "tester1
+great good",
+				"greatbad": "tester1
+great bad",
+				"goodgreat": "tester2
+good great",
+				"goodgood": "tester1
+good good",
+				"goodbad": "tester1
+good bad",
+				"badgreat": "tester2
+bad great",
+				"badgood": "tester1
+bad good",
+				"badbad": "tester1
+fuck you",
+			},	
+			"values": {
+				"great": [2,1,-2,-1],
+				"good": [-2,1,-1,2],
+				"bad": [2,-1,1,-2]
+			},	
+		},
+		"2": {
+			"dialogue": {
+				"great": "tester2
+im colin (awesome)",
+				"good": "tester1
+im colin (chill)",
+				"bad": "tester1
+im colin (mad)",
+
+				"greatgreat": "tester2
+great great",
+				"greatgood": "tester1
+great good",
+				"greatbad": "tester1
+great bad",
+				"goodgreat": "tester2
+good great",
+				"goodgood": "tester1
+good good",
+				"goodbad": "tester1
+good bad",
+				"badgreat": "tester2
+bad great",
+				"badgood": "tester1
+bad good",
+				"badbad": "tester1
+fuck you",
+			},	
+			"values": {
+				"great": [2,1,-2,-1],
+				"good": [-2,1,-1,2],
+				"bad": [2,-1,1,-2]
+			},	
+		},
+		"3": {
+			"dialogue": {
+				"great": "tester2
+im colin (awesome)",
+				"good": "tester1
+im colin (chill)",
+				"bad": "tester1
+im colin (mad)",
+
+				"greatgreat": "tester2
+great great",
+				"greatgood": "tester1
+great good",
+				"greatbad": "tester1
+great bad",
+				"goodgreat": "tester2
+good great",
+				"goodgood": "tester1
+good good",
+				"goodbad": "tester1
+good bad",
+				"badgreat": "tester2
+bad great",
+				"badgood": "tester1
+bad good",
+				"badbad": "tester1
+fuck you",
+			},	
+			"values": {
+				"great": [2,1,-2,-1],
+				"good": [-2,1,-1,2],
+				"bad": [2,-1,1,-2]
+			},	
+		}
+	},
+	"3": {
+		"1": {
+			"dialogue": {
+				"great": "tester2
+im colin (awesome)",
+				"good": "tester1
+im colin (chill)",
+				"bad": "tester1
+im colin (mad)",
+
+				"greatgreat": "tester2
+great great",
+				"greatgood": "tester1
+great good",
+				"greatbad": "tester1
+great bad",
+				"goodgreat": "tester2
+good great",
+				"goodgood": "tester1
+good good",
+				"goodbad": "tester1
+good bad",
+				"badgreat": "tester2
+bad great",
+				"badgood": "tester1
+bad good",
+				"badbad": "tester1
+fuck you",
+			},	
+			"values": {
+				"great": [2,1,-2,-1],
+				"good": [-2,1,-1,2],
+				"bad": [2,-1,1,-2]
+			},	
+		},
+		"2": {
+			"dialogue": {
+				"great": "tester2
+im colin (awesome)",
+				"good": "tester1
+im colin (chill)",
+				"bad": "tester1
+im colin (mad)",
+
+				"greatgreat": "tester2
+great great",
+				"greatgood": "tester1
+great good",
+				"greatbad": "tester1
+great bad",
+				"goodgreat": "tester2
+good great",
+				"goodgood": "tester1
+good good",
+				"goodbad": "tester1
+good bad",
+				"badgreat": "tester2
+bad great",
+				"badgood": "tester1
+bad good",
+				"badbad": "tester1
+fuck you",
+			},	
+			"values": {
+				"great": [2,1,-2,-1],
+				"good": [-2,1,-1,2],
+				"bad": [2,-1,1,-2]
+			},	
+		},
+		"3": {
+			"dialogue": {
+				"great": "tester2
+im colin (awesome)",
+				"good": "tester1
+im colin (chill)",
+				"bad": "tester1
+im colin (mad)",
+
+				"greatgreat": "tester2
+great great",
+				"greatgood": "tester1
+great good",
+				"greatbad": "tester1
+great bad",
+				"goodgreat": "tester2
+good great",
+				"goodgood": "tester1
+good good",
+				"goodbad": "tester1
+good bad",
+				"badgreat": "tester2
+bad great",
+				"badgood": "tester1
+bad good",
+				"badbad": "tester1
+fuck you",
+			},	
+			"values": {
+				"great": [2,1,-2,-1],
+				"good": [-2,1,-1,2],
+				"bad": [2,-1,1,-2]
+			},	
+		}
+	},
+	"end": "Check, please.",
+	"order": "You know what you want?",
+	"finaldialogue": {
+		"intro": "hey bro",
+		"great": "fire",
+		"good": "good date bruv",
+		"bad":"that was so unbelivably shit do not ever fucking talk to me again"
+	},
+}

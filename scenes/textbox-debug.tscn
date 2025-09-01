@@ -1,0 +1,26 @@
+[gd_scene load_steps=4 format=3 uid="uid://dsq5jnunvwtk4"]
+
+[ext_resource type="Script" uid="uid://bqyq7srx13k1a" path="res://scenes/textbox_debug.gd" id="1_ps0kb"]
+[ext_resource type="PackedScene" uid="uid://bhi86uf0ju714" path="res://scenes/textbox.tscn" id="2_upgh0"]
+[ext_resource type="PackedScene" uid="uid://51o65cpmci0x" path="res://scenes/interchangablesprite.tscn" id="3_upgh0"]
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource("1_ps0kb")
+
+[node name="interchangablesprite" parent="." instance=ExtResource("3_upgh0")]
+
+[node name="Textbox" parent="." instance=ExtResource("2_upgh0")]
+
+[node name="TextEdit" type="TextEdit" parent="."]
+offset_right = 8.0
+offset_bottom = 8.0
+text = "tester1
+99 bottles of beer on the wall, 99 bottles of beer.
+tester2
+Take one down and pass it around, 98 bottles of beer on the wall.
+tester2
+98 bottles of beer on the wall, 98 bottles of beer.
+tester1
+Take one down and pass it around, 97 bottles of beer on the wall."
+
+[connection signal="spritechange" from="Textbox" to="interchangablesprite" method="_on_textbox_spritechange"]

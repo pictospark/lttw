@@ -1,0 +1,344 @@
+{
+	"name":"Izzy",
+	"1": {
+		"1": {
+			"dialogue": {
+				"good": "none
+Jeez, there you are.
+izzysit
+Uuf-
+izzyirk
+Le Grande for a first date, huh? You sure you aren't overstepping the budget?
+izzyhair
+Not that I'm not appreciative, but I feel like it's a bit... much.
+izzylean
+What I'm trying to say is, I hope this isn't desperation coming into play.",
+				"goodbad":"izzyirk
+...Mhm.
+izzyirk
+Speaking about appreciative, I'd also appreciate you not *trying* to impress me.
+izzyirk
+Please tell me you can afford this.",
+				"goodgood":"izzylook
+Well, for one, I can say you have good taste.
+izzyhappi
+I used to love coming here as a kid. My mom would bring me here every other week with the rest of her family for dinner.
+izzyirk
+They all talked about boring ass money and finances and shit though. All the time. Every single dinner.
+izzyhappi
+That always irritated me. But it was nice catching up with the... not so financially obsessed people.",
+				"goodgreat":"tester2
+u did good",
+			},	
+			"values": {
+				"good":[-1,1,-2,2],
+			},	
+		},
+		"2": {
+			"dialogue": {
+				"great": "tester2
+This is test dialogue. Test dialogue needs to be long so the player doesnt accidentally softlock. (awesome)",
+				"good": "izzyblush
+I always loved how open this place was as well. It was so relaxing in the summer.
+izzyhappi
+I distinctly remember the breeze hitting your skin. It's so nice to just... soak it all in.
+izzylook
+..Hey, what type of season guy are you anyway? Winter? Summer? Autumn?
+izzyhappi
+If you can't tell already, I'm a summer person. Which is funny since the rest of my family isn't.
+izzylook
+When I was younger, that's pretty much how I was able to tell summer was coming.
+izzyGRAHH
+The **BITCHING.**
+izzyGRAHH
+SO MUCH. BITCHING.
+izzylook
+Like be real, right? I just want some peace and quiet with my damn season
+",
+				"bad": "izzyGRAHH
+I didnt write this part yet but uhhh this is the bad dialogue.",
+
+				"greatgreat": "tester2
+OH MY GOD, RIGHT????",
+				"greatgood": "
+This is more long test dialogue. You went from GREAT status to GOOD status.",
+				"greatbad": "
+This is more long test dialogue. You tanked from GREAT status to BAD status.",
+				"goodgreat": "tester2
+This is more long test dialogue. You went from GOOD status to GREAT status.",
+				"goodgood": "
+This is more long test dialogue. You upheld GOOD status.",
+				"goodbad": "izzyshock
+.
+izzylook
+I mean, I wouldn't put it like that.
+izzylook
+I mean, at the end of the day, they're still my family.",
+				"badgreat": "tester2
+This is more long test dialogue. You went from BAD status to GREAT status.",
+				"badgood": "
+This is more long test dialogue. You went from BAD status to GOOD status.",
+				"badbad": "
+You upheld BAD status. The original test dialogue was just said \"fuck you\" but dialogue that short could potentially softlock you!",
+			},	
+			"values": {
+				"great": [2,1,-2,-1],
+				"good": [-2,1,-1,2],
+				"bad": [2,-1,1,-2]
+			},	
+		},
+		"3": {
+			"dialogue": {
+				"great": "tester2
+This is test dialogue. Test dialogue needs to be long so the player doesnt accidentally softlock. (awesome)",
+				"good": "tester1
+This is test dialogue. Test dialogue needs to be long so the player doesnt accidentally softlock. (chill)",
+				"bad": "tester1
+This is test dialogue. Test dialogue needs to be long so the player doesnt accidentally softlock. (mad)",
+
+				"greatgreat": "tester2
+This is more long test dialogue. You upheld GREAT status.",
+				"greatgood": "tester1
+This is more long test dialogue. You went from GREAT status to GOOD status.",
+				"greatbad": "tester1
+This is more long test dialogue. You tanked from GREAT status to BAD status.",
+				"goodgreat": "tester2
+This is more long test dialogue. You went from GOOD status to GREAT status.",
+				"goodgood": "tester2
+This is more long test dialogue. You upheld GOOD status.",
+				"goodbad": "tester2
+This is more long test dialogue. You went from GOOD status to BAD status.",
+				"badgreat": "tester2
+This is more long test dialogue. You went from BAD status to GREAT status.",
+				"badgood": "tester1
+This is more long test dialogue. You went from BAD status to GOOD status.",
+				"badbad": "tester2
+You upheld BAD status. The original test dialogue was just \"fuck you\" but dialogue that short could potentially softlock you!",
+			},	
+			"values": {
+				"great": [2,1,-2,-1],
+				"good": [-2,1,-1,2],
+				"bad": [2,-1,1,-2]
+			},	
+		}
+	},
+	
+	"2": {
+		"1": {
+			"dialogue": {
+				"great": "tester2
+This is test dialogue. Test dialogue needs to be long so the player doesnt accidentally softlock. (awesome)",
+				"good": "tester1
+This is test dialogue. Test dialogue needs to be long so the player doesnt accidentally softlock. (chill)",
+				"bad": "tester1
+This is test dialogue. Test dialogue needs to be long so the player doesnt accidentally softlock. (mad)",
+
+				"greatgreat": "tester2
+This is more long test dialogue. You upheld GREAT status.",
+				"greatgood": "tester1
+This is more long test dialogue. You went from GREAT status to GOOD status.",
+				"greatbad": "tester1
+This is more long test dialogue. You tanked from GREAT status to BAD status.",
+				"goodgreat": "tester2
+This is more long test dialogue. You went from GOOD status to GREAT status.",
+				"goodgood": "tester1
+This is more long test dialogue. You upheld GOOD status.",
+				"goodbad": "tester1
+This is more long test dialogue. You went from GOOD status to BAD status.",
+				"badgreat": "tester2
+This is more long test dialogue. You went from BAD status to GREAT status.",
+				"badgood": "tester1
+This is more long test dialogue. You went from BAD status to GOOD status.",
+				"badbad": "tester1
+You upheld BAD status. The original test dialogue was just \"fuck you\" but dialogue that short could potentially softlock you!",
+			},	
+			"values": {
+				"great": [2,1,-2,-1],
+				"good": [-2,1,-1,2],
+				"bad": [2,-1,1,-2]
+			},	
+		},
+		"2": {
+			"dialogue": {
+				"great": "tester2
+This is test dialogue. Test dialogue needs to be long so the player doesnt accidentally softlock. (awesome)",
+				"good": "tester1
+This is test dialogue. Test dialogue needs to be long so the player doesnt accidentally softlock. (chill)",
+				"bad": "tester1
+This is test dialogue. Test dialogue needs to be long so the player doesnt accidentally softlock. (mad)",
+
+				"greatgreat": "tester2
+This is more long test dialogue. You upheld GREAT status.",
+				"greatgood": "tester1
+This is more long test dialogue. You went from GREAT status to GOOD status.",
+				"greatbad": "tester1
+This is more long test dialogue. You tanked from GREAT status to BAD status.",
+				"goodgreat": "tester2
+This is more long test dialogue. You went from GOOD status to GREAT status.",
+				"goodgood": "tester1
+This is more long test dialogue. You upheld GOOD status.",
+				"goodbad": "tester1
+This is more long test dialogue. You went from GOOD status to BAD status.",
+				"badgreat": "tester2
+This is more long test dialogue. You went from BAD status to GREAT status.",
+				"badgood": "tester1
+This is more long test dialogue. You went from BAD status to GOOD status.",
+				"badbad": "tester1
+You upheld BAD status. The original test dialogue was just \"fuck you\" but dialogue that short could potentially softlock you!",
+			},	
+			"values": {
+				"great": [2,1,-2,-1],
+				"good": [-2,1,-1,2],
+				"bad": [2,-1,1,-2]
+			},	
+		},
+		"3": {
+			"dialogue": {
+				"great": "tester2
+This is test dialogue. Test dialogue needs to be long so the player doesnt accidentally softlock. (awesome)",
+				"good": "tester1
+This is test dialogue. Test dialogue needs to be long so the player doesnt accidentally softlock. (chill)",
+				"bad": "tester1
+This is test dialogue. Test dialogue needs to be long so the player doesnt accidentally softlock. (mad)",
+
+				"greatgreat": "tester2
+This is more long test dialogue. You upheld GREAT status.",
+				"greatgood": "tester1
+This is more long test dialogue. You went from GREAT status to GOOD status.",
+				"greatbad": "tester1
+This is more long test dialogue. You tanked from GREAT status to BAD status.",
+				"goodgreat": "tester2
+This is more long test dialogue. You went from GOOD status to GREAT status.",
+				"goodgood": "tester1
+This is more long test dialogue. You upheld GOOD status.",
+				"goodbad": "tester1
+This is more long test dialogue. You went from GOOD status to BAD status.",
+				"badgreat": "tester2
+This is more long test dialogue. You went from BAD status to GREAT status.",
+				"badgood": "tester1
+This is more long test dialogue. You went from BAD status to GOOD status.",
+				"badbad": "tester1
+You upheld BAD status. The original test dialogue was just \"fuck you\" but dialogue that short could potentially softlock you!",
+			},	
+			"values": {
+				"great": [2,1,-2,-1],
+				"good": [-2,1,-1,2],
+				"bad": [2,-1,1,-2]
+			},	
+		}
+	},
+	"3": {
+		"1": {
+			"dialogue": {
+				"great": "tester2
+This is test dialogue. Test dialogue needs to be long so the player doesnt accidentally softlock. (awesome)",
+				"good": "tester1
+This is test dialogue. Test dialogue needs to be long so the player doesnt accidentally softlock. (chill)",
+				"bad": "tester1
+This is test dialogue. Test dialogue needs to be long so the player doesnt accidentally softlock. (mad)",
+
+				"greatgreat": "tester2
+This is more long test dialogue. You upheld GREAT status.",
+				"greatgood": "tester1
+This is more long test dialogue. You went from GREAT status to GOOD status.",
+				"greatbad": "tester1
+This is more long test dialogue. You tanked from GREAT status to BAD status.",
+				"goodgreat": "tester2
+This is more long test dialogue. You went from GOOD status to GREAT status.",
+				"goodgood": "tester1
+This is more long test dialogue. You upheld GOOD status.",
+				"goodbad": "tester1
+This is more long test dialogue. You went from GOOD status to BAD status.",
+				"badgreat": "tester2
+This is more long test dialogue. You went from BAD status to GREAT status.",
+				"badgood": "tester1
+This is more long test dialogue. You went from BAD status to GOOD status.",
+				"badbad": "tester1
+You upheld BAD status. The original test dialogue was just \"fuck you\" but dialogue that short could potentially softlock you!",
+			},	
+			"values": {
+				"great": [2,1,-2,-1],
+				"good": [-2,1,-1,2],
+				"bad": [2,-1,1,-2]
+			},	
+		},
+		"2": {
+			"dialogue": {
+				"great": "tester2
+This is test dialogue. Test dialogue needs to be long so the player doesnt accidentally softlock. (awesome)",
+				"good": "tester1
+This is test dialogue. Test dialogue needs to be long so the player doesnt accidentally softlock. (chill)",
+				"bad": "tester1
+This is test dialogue. Test dialogue needs to be long so the player doesnt accidentally softlock. (mad)",
+
+				"greatgreat": "tester2
+This is more long test dialogue. You upheld GREAT status.",
+				"greatgood": "tester1
+This is more long test dialogue. You went from GREAT status to GOOD status.",
+				"greatbad": "tester1
+This is more long test dialogue. You tanked from GREAT status to BAD status.",
+				"goodgreat": "tester2
+This is more long test dialogue. You went from GOOD status to GREAT status.",
+				"goodgood": "tester1
+This is more long test dialogue. You upheld GOOD status.",
+				"goodbad": "tester1
+This is more long test dialogue. You went from GOOD status to BAD status.",
+				"badgreat": "tester2
+This is more long test dialogue. You went from BAD status to GREAT status.",
+				"badgood": "tester1
+This is more long test dialogue. You went from BAD status to GOOD status.",
+				"badbad": "tester1
+You upheld BAD status. The original test dialogue was just \"fuck you\" but dialogue that short could potentially softlock you!",
+			},	
+			"values": {
+				"great": [2,1,-2,-1],
+				"good": [-2,1,-1,2],
+				"bad": [2,-1,1,-2]
+			},	
+		},
+		"3": {
+			"dialogue": {
+				"great": "tester2
+This is test dialogue. Test dialogue needs to be long so the player doesnt accidentally softlock. (awesome)",
+				"good": "tester1
+This is test dialogue. Test dialogue needs to be long so the player doesnt accidentally softlock. (chill)",
+				"bad": "tester1
+This is test dialogue. Test dialogue needs to be long so the player doesnt accidentally softlock. (mad)",
+
+				"greatgreat": "tester2
+This is more long test dialogue. You upheld GREAT status.",
+				"greatgood": "tester1
+This is more long test dialogue. You went from GREAT status to GOOD status.",
+				"greatbad": "tester1
+This is more long test dialogue. You tanked from GREAT status to BAD status.",
+				"goodgreat": "tester2
+This is more long test dialogue. You went from GOOD status to GREAT status.",
+				"goodgood": "tester1
+This is more long test dialogue. You upheld GOOD status.",
+				"goodbad": "tester1
+This is more long test dialogue. You went from GOOD status to BAD status.",
+				"badgreat": "tester2
+This is more long test dialogue. You went from BAD status to GREAT status.",
+				"badgood": "tester1
+This is more long test dialogue. You went from BAD status to GOOD status.",
+				"badbad": "tester1
+You upheld BAD status. The original test dialogue was just \"fuck you\" but dialogue that short could potentially softlock you!",
+			},	
+			"values": {
+				"great": [2,1,-2,-1],
+				"good": [-2,1,-1,2],
+				"bad": [2,-1,1,-2]
+			},	
+		}
+	},
+	"end": "tester1
+Check, please.",
+	"order": "tester1
+You know what you want?",
+	"finaldialogue": {
+		"intro": "hey bro",
+		"great": "fire",
+		"good": "good date bruv",
+		"bad":"that was so unbelivably shit do not ever fucking talk to me again"
+	},
+}

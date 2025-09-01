@@ -1,0 +1,25 @@
+[gd_scene load_steps=5 format=3 uid="uid://kkgv8a5ms0gl"]
+
+[ext_resource type="Script" uid="uid://cxy3w3kinv2vk" path="res://scenes/game.gd" id="1_lbhrr"]
+[ext_resource type="Texture2D" uid="uid://6f6j2ag1j2yb" path="res://sprites/bgplaceholder.png" id="1_yqjtg"]
+[ext_resource type="Texture2D" uid="uid://dxjgt6iib35uj" path="res://sprites/tableplacehodler.png" id="2_lnu2h"]
+[ext_resource type="PackedScene" uid="uid://dvodq6q5qc8k" path="res://scenes/menu.tscn" id="3_lnu2h"]
+
+[node name="Game" type="Node2D"]
+script = ExtResource("1_lbhrr")
+
+[node name="bg" type="Sprite2D" parent="."]
+position = Vector2(576, 324)
+texture = ExtResource("1_yqjtg")
+
+[node name="character" type="AnimatedSprite2D" parent="."]
+
+[node name="table" type="Sprite2D" parent="."]
+position = Vector2(575, 322)
+texture = ExtResource("2_lnu2h")
+
+[node name="menu" parent="." instance=ExtResource("3_lnu2h")]
+
+[node name="Current Dialogue" type="TextEdit" parent="."]
+offset_right = 8.0
+offset_bottom = 8.0

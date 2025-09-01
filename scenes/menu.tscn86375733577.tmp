@@ -1,0 +1,62 @@
+[gd_scene load_steps=3 format=3 uid="uid://dvodq6q5qc8k"]
+
+[ext_resource type="Script" uid="uid://bsot4hay1mv3b" path="res://scenes/menu.gd" id="1_vjb58"]
+[ext_resource type="FontFile" uid="uid://d3j6a31vfsb2" path="res://fonts/Born2bSportyV10.ttf" id="1_yqeox"]
+
+[node name="menu" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_vjb58")
+
+[node name="Panel" type="Panel" parent="."]
+self_modulate = Color(1, 1, 1, 0)
+offset_top = 312.0
+offset_right = 1152.0
+offset_bottom = 648.0
+
+[node name="play" type="Button" parent="Panel"]
+texture_filter = 1
+offset_left = 529.0
+offset_right = 625.0
+offset_bottom = 74.0
+theme_type_variation = &"FlatButton"
+theme_override_fonts/font = ExtResource("1_yqeox")
+theme_override_font_sizes/font_size = 46
+text = "Play"
+
+[node name="finderr" type="Button" parent="Panel"]
+texture_filter = 1
+offset_left = 409.0
+offset_top = 152.0
+offset_right = 745.0
+offset_bottom = 226.0
+theme_type_variation = &"FlatButton"
+theme_override_fonts/font = ExtResource("1_yqeox")
+theme_override_font_sizes/font_size = 46
+text = "Return to Finderr"
+
+[node name="quit" type="Button" parent="Panel"]
+texture_filter = 1
+offset_left = 537.0
+offset_top = 227.0
+offset_right = 617.0
+offset_bottom = 301.0
+theme_type_variation = &"FlatButton"
+theme_override_fonts/font = ExtResource("1_yqeox")
+theme_override_font_sizes/font_size = 46
+text = "Quit"
+
+[node name="options" type="Button" parent="Panel"]
+texture_filter = 1
+offset_left = 502.0
+offset_top = 75.0
+offset_right = 652.0
+offset_bottom = 149.0
+theme_type_variation = &"FlatButton"
+theme_override_fonts/font = ExtResource("1_yqeox")
+theme_override_font_sizes/font_size = 46
+text = "Options"

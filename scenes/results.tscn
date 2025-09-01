@@ -1,0 +1,27 @@
+[gd_scene load_steps=3 format=3 uid="uid://dthb0wj17ywt"]
+
+[ext_resource type="Script" uid="uid://dos831c04pka3" path="res://scenes/results.gd" id="1_qh7lt"]
+[ext_resource type="PackedScene" uid="uid://bhi86uf0ju714" path="res://scenes/textbox.tscn" id="3_s58my"]
+
+[node name="Results" type="Node2D"]
+script = ExtResource("1_qh7lt")
+
+[node name="Label" type="Label" parent="."]
+offset_left = 441.0
+offset_top = 322.0
+offset_right = 607.0
+offset_bottom = 423.0
+text = "results cutscene goes
+ here
+
+you did:"
+
+[node name="rating" type="Label" parent="."]
+offset_left = 543.0
+offset_top = 417.0
+offset_right = 602.0
+offset_bottom = 440.0
+rotation = -0.139011
+text = "RATING"
+
+[node name="Textbox" parent="." instance=ExtResource("3_s58my")]

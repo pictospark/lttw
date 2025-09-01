@@ -1,0 +1,329 @@
+[gd_scene load_steps=13 format=3 uid="uid://ceg7hqt3r12vm"]
+
+[ext_resource type="Texture2D" uid="uid://ds1oqf3qcff6r" path="res://sprites/menu.png" id="1_1a0nf"]
+[ext_resource type="Script" uid="uid://5ng5h6tnarjj" path="res://scenes/foodmenu.gd" id="1_8vs3d"]
+[ext_resource type="FontFile" uid="uid://d3j6a31vfsb2" path="res://fonts/Born2bSportyV10.ttf" id="3_we7gs"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_we7gs"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_rymcp"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_we7gs"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_xy731"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_lsr6j"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_oi4ix"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_wn0nt"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_x43o0"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_ina0f"]
+
+[node name="foodmenu" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_8vs3d")
+
+[node name="Menu" type="Sprite2D" parent="."]
+texture_filter = 1
+position = Vector2(589, 325)
+texture = ExtResource("1_1a0nf")
+
+[node name="filet" type="Button" parent="Menu"]
+offset_left = -234.0
+offset_top = -183.0
+offset_right = -12.0
+offset_bottom = -81.0
+theme_override_fonts/font = ExtResource("3_we7gs")
+theme_override_styles/focus = SubResource("StyleBoxTexture_we7gs")
+theme_override_styles/hover = SubResource("StyleBoxEmpty_rymcp")
+theme_override_styles/pressed = SubResource("StyleBoxEmpty_we7gs")
+theme_override_styles/normal = SubResource("StyleBoxEmpty_xy731")
+
+[node name="RichTextLabel" type="RichTextLabel" parent="Menu/filet"]
+texture_filter = 1
+layout_mode = 0
+offset_right = 158.0
+offset_bottom = 45.0
+mouse_filter = 1
+theme_override_colors/default_color = Color(0.4, 0.0352941, 0.0627451, 1)
+theme_override_fonts/normal_font = ExtResource("3_we7gs")
+theme_override_font_sizes/normal_font_size = 32
+bbcode_enabled = true
+text = "Filet Mignon
+"
+
+[node name="RichTextLabel2" type="RichTextLabel" parent="Menu/filet"]
+texture_filter = 1
+layout_mode = 0
+offset_top = 32.0
+offset_right = 226.0
+offset_bottom = 97.0
+mouse_filter = 1
+theme_override_colors/default_color = Color(0.39817, 0.158864, 0.123146, 1)
+theme_override_fonts/normal_font = ExtResource("3_we7gs")
+bbcode_enabled = true
+text = "Flame grilled 3-ish oz steak. Served with mashed potatoes and asparagous. Esparagous. Asparagous however you spell it"
+
+[node name="chickenparm" type="Button" parent="Menu"]
+offset_left = -234.0
+offset_top = -75.0
+offset_right = -14.0
+offset_bottom = -5.0
+theme_override_styles/focus = SubResource("StyleBoxEmpty_lsr6j")
+theme_override_styles/hover_pressed = SubResource("StyleBoxEmpty_oi4ix")
+theme_override_styles/hover = SubResource("StyleBoxEmpty_wn0nt")
+theme_override_styles/pressed = SubResource("StyleBoxEmpty_x43o0")
+theme_override_styles/normal = SubResource("StyleBoxEmpty_ina0f")
+
+[node name="RichTextLabel" type="RichTextLabel" parent="Menu/chickenparm"]
+texture_filter = 1
+layout_mode = 0
+offset_right = 214.0
+offset_bottom = 37.0
+mouse_filter = 1
+theme_override_colors/default_color = Color(0.4, 0.0352941, 0.0627451, 1)
+theme_override_fonts/normal_font = ExtResource("3_we7gs")
+theme_override_font_sizes/normal_font_size = 32
+bbcode_enabled = true
+text = "Chicken Parm
+"
+
+[node name="RichTextLabel2" type="RichTextLabel" parent="Menu/chickenparm"]
+texture_filter = 1
+layout_mode = 0
+offset_top = 32.0
+offset_right = 226.0
+offset_bottom = 97.0
+mouse_filter = 1
+theme_override_colors/default_color = Color(0.39817, 0.158864, 0.123146, 1)
+theme_override_fonts/normal_font = ExtResource("3_we7gs")
+bbcode_enabled = true
+text = "Chicken with parm on it. And some tomato sauce too I guess."
+
+[node name="awardburger" type="Button" parent="Menu"]
+offset_left = -234.0
+offset_top = 2.0
+offset_right = 36.0
+offset_bottom = 140.0
+theme_override_styles/focus = SubResource("StyleBoxEmpty_lsr6j")
+theme_override_styles/hover_pressed = SubResource("StyleBoxEmpty_oi4ix")
+theme_override_styles/hover = SubResource("StyleBoxEmpty_wn0nt")
+theme_override_styles/pressed = SubResource("StyleBoxEmpty_x43o0")
+theme_override_styles/normal = SubResource("StyleBoxEmpty_ina0f")
+
+[node name="RichTextLabel" type="RichTextLabel" parent="Menu/awardburger"]
+texture_filter = 1
+layout_mode = 0
+offset_right = 224.0
+offset_bottom = 66.0
+mouse_filter = 1
+theme_override_colors/default_color = Color(0.4, 0.0352941, 0.0627451, 1)
+theme_override_fonts/normal_font = ExtResource("3_we7gs")
+theme_override_font_sizes/normal_font_size = 32
+bbcode_enabled = true
+text = "\"Our\" \"Award Winning\" Burger"
+
+[node name="RichTextLabel2" type="RichTextLabel" parent="Menu/awardburger"]
+texture_filter = 1
+layout_mode = 0
+offset_top = 65.0
+offset_right = 268.0
+offset_bottom = 152.0
+mouse_filter = 1
+theme_override_colors/default_color = Color(0.39817, 0.158864, 0.123146, 1)
+theme_override_fonts/normal_font = ExtResource("3_we7gs")
+bbcode_enabled = true
+text = "A burger with a boatload of other things on it that makes it indistinguishable from a burger but people still eat it because they don't know what makes a good burger.
+- Buger Enthusiast"
+
+[node name="cowboyburger" type="Button" parent="Menu"]
+offset_left = -234.0
+offset_top = 159.0
+offset_right = 40.0
+offset_bottom = 238.0
+theme_override_styles/focus = SubResource("StyleBoxEmpty_lsr6j")
+theme_override_styles/hover_pressed = SubResource("StyleBoxEmpty_oi4ix")
+theme_override_styles/hover = SubResource("StyleBoxEmpty_wn0nt")
+theme_override_styles/pressed = SubResource("StyleBoxEmpty_x43o0")
+theme_override_styles/normal = SubResource("StyleBoxEmpty_ina0f")
+
+[node name="RichTextLabel" type="RichTextLabel" parent="Menu/cowboyburger"]
+texture_filter = 1
+layout_mode = 0
+offset_right = 224.0
+offset_bottom = 66.0
+mouse_filter = 1
+theme_override_colors/default_color = Color(0.4, 0.0352941, 0.0627451, 1)
+theme_override_fonts/normal_font = ExtResource("3_we7gs")
+theme_override_font_sizes/normal_font_size = 32
+bbcode_enabled = true
+text = "Cowboy Burger"
+
+[node name="RichTextLabel2" type="RichTextLabel" parent="Menu/cowboyburger"]
+texture_filter = 1
+layout_mode = 0
+offset_top = 37.0
+offset_right = 273.0
+offset_bottom = 105.0
+mouse_filter = 1
+theme_override_colors/default_color = Color(0.39817, 0.158864, 0.123146, 1)
+theme_override_fonts/normal_font = ExtResource("3_we7gs")
+bbcode_enabled = true
+text = "Inch thick patty and an onion ring, drenched in BBQ sauce. Because screw it, why not. What does this have to do with cowboys?"
+
+[node name="ratatoullie" type="Button" parent="Menu"]
+offset_left = 64.0
+offset_top = -183.0
+offset_right = 257.0
+offset_bottom = -93.0
+theme_override_styles/focus = SubResource("StyleBoxEmpty_lsr6j")
+theme_override_styles/hover_pressed = SubResource("StyleBoxEmpty_oi4ix")
+theme_override_styles/hover = SubResource("StyleBoxEmpty_wn0nt")
+theme_override_styles/pressed = SubResource("StyleBoxEmpty_x43o0")
+theme_override_styles/normal = SubResource("StyleBoxEmpty_ina0f")
+
+[node name="RichTextLabel" type="RichTextLabel" parent="Menu/ratatoullie"]
+texture_filter = 1
+layout_mode = 0
+offset_right = 224.0
+offset_bottom = 66.0
+mouse_filter = 1
+theme_override_colors/default_color = Color(0.4, 0.0352941, 0.0627451, 1)
+theme_override_fonts/normal_font = ExtResource("3_we7gs")
+theme_override_font_sizes/normal_font_size = 32
+bbcode_enabled = true
+text = "Ratatoullie"
+
+[node name="RichTextLabel2" type="RichTextLabel" parent="Menu/ratatoullie"]
+texture_filter = 1
+layout_mode = 0
+offset_top = 37.0
+offset_right = 212.0
+offset_bottom = 105.0
+mouse_filter = 1
+theme_override_colors/default_color = Color(0.39817, 0.158864, 0.123146, 1)
+theme_override_fonts/normal_font = ExtResource("3_we7gs")
+bbcode_enabled = true
+text = "Any semblance of this being a Romanian restaurant has been shattered."
+
+[node name="macandcheese" type="Button" parent="Menu"]
+offset_left = 64.0
+offset_top = -84.0
+offset_right = 270.0
+offset_bottom = -7.0
+theme_override_styles/focus = SubResource("StyleBoxEmpty_lsr6j")
+theme_override_styles/hover_pressed = SubResource("StyleBoxEmpty_oi4ix")
+theme_override_styles/hover = SubResource("StyleBoxEmpty_wn0nt")
+theme_override_styles/pressed = SubResource("StyleBoxEmpty_x43o0")
+theme_override_styles/normal = SubResource("StyleBoxEmpty_ina0f")
+
+[node name="RichTextLabel" type="RichTextLabel" parent="Menu/macandcheese"]
+texture_filter = 1
+layout_mode = 0
+offset_right = 224.0
+offset_bottom = 66.0
+mouse_filter = 1
+theme_override_colors/default_color = Color(0.4, 0.0352941, 0.0627451, 1)
+theme_override_fonts/normal_font = ExtResource("3_we7gs")
+theme_override_font_sizes/normal_font_size = 32
+bbcode_enabled = true
+text = "Mac And Cheese"
+
+[node name="RichTextLabel2" type="RichTextLabel" parent="Menu/macandcheese"]
+texture_filter = 1
+layout_mode = 0
+offset_top = 37.0
+offset_right = 212.0
+offset_bottom = 105.0
+mouse_filter = 1
+theme_override_colors/default_color = Color(0.39817, 0.158864, 0.123146, 1)
+theme_override_fonts/normal_font = ExtResource("3_we7gs")
+bbcode_enabled = true
+text = "Elbow pasta with a 3 cheese blend. The safest option."
+
+[node name="allmeatsburger" type="Button" parent="Menu"]
+offset_left = 64.0
+offset_top = 10.0
+offset_right = 275.0
+offset_bottom = 118.0
+theme_override_styles/focus = SubResource("StyleBoxEmpty_lsr6j")
+theme_override_styles/hover_pressed = SubResource("StyleBoxEmpty_oi4ix")
+theme_override_styles/hover = SubResource("StyleBoxEmpty_wn0nt")
+theme_override_styles/pressed = SubResource("StyleBoxEmpty_x43o0")
+theme_override_styles/normal = SubResource("StyleBoxEmpty_ina0f")
+
+[node name="RichTextLabel" type="RichTextLabel" parent="Menu/allmeatsburger"]
+texture_filter = 1
+layout_mode = 0
+offset_right = 224.0
+offset_bottom = 66.0
+mouse_filter = 1
+theme_override_colors/default_color = Color(0.4, 0.0352941, 0.0627451, 1)
+theme_override_fonts/normal_font = ExtResource("3_we7gs")
+theme_override_font_sizes/normal_font_size = 32
+bbcode_enabled = true
+text = "All Meats Burger"
+
+[node name="RichTextLabel2" type="RichTextLabel" parent="Menu/allmeatsburger"]
+texture_filter = 1
+layout_mode = 0
+offset_top = 37.0
+offset_right = 212.0
+offset_bottom = 105.0
+mouse_filter = 1
+theme_override_colors/default_color = Color(0.39817, 0.158864, 0.123146, 1)
+theme_override_fonts/normal_font = ExtResource("3_we7gs")
+bbcode_enabled = true
+text = "Beef, chicken, bacon, pork, and fish infused burger. Stop making burgers. Stop making burgers. Stop making burgers. Stop making"
+
+[node name="plantburger" type="Button" parent="Menu"]
+offset_left = 64.0
+offset_top = 130.0
+offset_right = 255.0
+offset_bottom = 214.0
+theme_override_styles/focus = SubResource("StyleBoxEmpty_lsr6j")
+theme_override_styles/hover_pressed = SubResource("StyleBoxEmpty_oi4ix")
+theme_override_styles/hover = SubResource("StyleBoxEmpty_wn0nt")
+theme_override_styles/pressed = SubResource("StyleBoxEmpty_x43o0")
+theme_override_styles/normal = SubResource("StyleBoxEmpty_ina0f")
+
+[node name="RichTextLabel" type="RichTextLabel" parent="Menu/plantburger"]
+texture_filter = 1
+layout_mode = 0
+offset_right = 224.0
+offset_bottom = 66.0
+mouse_filter = 1
+theme_override_colors/default_color = Color(0.4, 0.0352941, 0.0627451, 1)
+theme_override_fonts/normal_font = ExtResource("3_we7gs")
+theme_override_font_sizes/normal_font_size = 32
+bbcode_enabled = true
+text = "Plant Burger"
+
+[node name="RichTextLabel2" type="RichTextLabel" parent="Menu/plantburger"]
+texture_filter = 1
+layout_mode = 0
+offset_top = 37.0
+offset_right = 212.0
+offset_bottom = 105.0
+mouse_filter = 1
+theme_override_colors/default_color = Color(0.39817, 0.158864, 0.123146, 1)
+theme_override_fonts/normal_font = ExtResource("3_we7gs")
+bbcode_enabled = true
+text = "This is literally the only vegan thing on the menu. I quit."
+
+[connection signal="pressed" from="Menu/filet" to="." method="_on_filet_pressed"]
+[connection signal="pressed" from="Menu/chickenparm" to="." method="_on_chickenparm_pressed"]
+[connection signal="pressed" from="Menu/awardburger" to="." method="_on_awardburger_pressed"]
+[connection signal="pressed" from="Menu/cowboyburger" to="." method="_on_cowboyburger_pressed"]
+[connection signal="pressed" from="Menu/ratatoullie" to="." method="_on_ratatoullie_pressed"]
+[connection signal="pressed" from="Menu/macandcheese" to="." method="_on_macandcheese_pressed"]
+[connection signal="pressed" from="Menu/allmeatsburger" to="." method="_on_allmeatsburger_pressed"]
+[connection signal="pressed" from="Menu/plantburger" to="." method="_on_plantburger_pressed"]
